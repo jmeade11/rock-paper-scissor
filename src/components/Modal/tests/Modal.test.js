@@ -1,8 +1,8 @@
 import { render } from '@testing-library/react';
-import App from '..';
+import Modal from '..';
 
-describe('App component tests', () => {
+describe('Modal component tests', () => {
 	it('renders without crashing', () => {
-		render(<App />);
+		render(<Modal />);
 	});
 });

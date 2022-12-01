@@ -1,8 +1,8 @@
 import { render } from '@testing-library/react';
-import App from '..';
+import Main from '..';
 
-describe('App component tests', () => {
+describe('Main component tests', () => {
 	it('renders without crashing', () => {
-		render(<App />);
+		render(<Main />);
 	});
 });

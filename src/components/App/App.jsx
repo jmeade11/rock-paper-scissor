@@ -1,5 +1,13 @@
-import styles from './App.module.css';
+import Header from '../Header';
+import Main from '../Main';
+import Footer from '../Footer';
 
 export default function App() {
-	return <div className={styles.App}>App</div>;
+	return (
+		<>
+			<Header />
+			<Main />
+			<Footer />
+		</>
+	);
 }

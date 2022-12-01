@@ -1,0 +1,13 @@
+.Footer {
+}
+
+/* Attribution styles: modified for visibility */
+
+.attribution {
+	font-size: 0.9rem;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 80%);
+}

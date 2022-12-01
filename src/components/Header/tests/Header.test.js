@@ -1,8 +1,8 @@
 import { render } from '@testing-library/react';
-import App from '..';
+import Header from '..';
 
-describe('App component tests', () => {
+describe('Header component tests', () => {
 	it('renders without crashing', () => {
-		render(<App />);
+		render(<Header />);
 	});
 });
